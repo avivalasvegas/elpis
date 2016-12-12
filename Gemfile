@@ -28,10 +28,10 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-  gem 'rails_12factor'
-  gem 'pg'
-end
+# group :production do
+#  gem 'rails_12factor'
+#  gem 'pg'
+# end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -49,7 +49,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 end
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem "font-awesome-rails"
 gem 'simple_form'
 gem 'devise'
